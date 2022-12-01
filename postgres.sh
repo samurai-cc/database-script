@@ -2,7 +2,7 @@
 
 DATE=`date "+%Y%m%d"`
 
-cd /home/habib/
+cd /home/habib/scripts/database-script/
 
 PGPASSFILE=adminpostgres
 
@@ -10,4 +10,4 @@ PGPASSFILE=adminpostgres
 
 
 
-#PGPASSWORD=$OGPASSFILE psql -U postgres -d ad_dev_payments -f myscript.sql
+PGPASSWORD=$PGPASSFILE psql -U postgres -d testscriptdb -f dbscript.sql
