@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE=`date "+%Y%m%d"`
+#DATE=`date "+%Y%m%d"`
 
 cd /home/habib/scripts/database-script/
 
